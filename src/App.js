@@ -45,7 +45,7 @@ function App() {
     }
   };
 
-  //useEffect(()=>{runFacemesh()}, []);
+  useEffect(()=>{runFacemesh()}, []);
     
   return (
     <div className="App">
